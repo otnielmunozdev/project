@@ -1,0 +1,122 @@
+#cabecera{
+  background: #f5270b;
+  color: #ffffff;
+  text-align: center;
+  margin: 15px auto;
+  padding: 3px;
+  border: 10px solid #c6b51d;
+  border-radius: 15px;
+  box-shadow: #eddd09 15px 15px 50px 6px;
+  -moz-transition:-moz-transform 1s ease 0.1s;
+  background: -moz-radial-gradient(center, ellipse, #601f1f 50px, #ec1818 )
+}
+
+#titulo{
+  font:bold  verdana 15px;
+  text-shadow: rgb(241, 193, 22) 5px 5px 10px;
+}
+
+#cabecera:hover{
+  -moz-transform:rotate(180deg);
+}
+
+#menu{
+  margin:50px auto;
+  background-color: #6bf10e;
+  width: 15px auto;
+  text-align: center;
+  border: 5px dashed rgb(37, 96, 1);
+  border-radius: 90px;
+  box-shadow: #8df77c 15px 15px ;
+  -moz-transition:-moz-transform 1s ease 0.1s;
+
+}
+
+#menuhijo:hover{
+  -moz-transform:scale(1.2);
+}
+
+li{
+
+  background-color: #10e371;
+  display: inline;
+  padding: 10px;
+  margin: auto;
+  border: 5px solid #0d5f6a;
+  border-radius: 10px;
+  box-shadow: #bac304 3px 3px 50px;
+}
+
+li.hover{
+  -moz-transform:rotate(30r);
+}
+#seccionprincipal{
+  background-color: #09ec34;
+  text-align: center;
+  margin-left: 200px;
+  margin-right: 200px;
+  border: 10px solid #336a1a;
+  border-radius: 10px;
+  box-shadow: #27671f 10px 10px 20px 10px;
+  background: -moz-radial-gradient(center, ellipse,#1ec489 50px,#05e64a )
+}
+
+#imagen{
+  width: 300px;
+  height: 200px;
+  border: 10px solid #0e280f;
+  box-shadow: #071b09 10px 10px 20px ;
+  margin: auto;
+  -moz-transition:-moz-transform 1s ease 0.1s;
+  /*padding-right: 200px;*/
+}
+
+#imagen:hover{
+  -moz-transform:scale(0.5);
+}
+
+#redessociales{
+  background-color: #0fbcf2;
+  float: left;
+  margin-top: -400px;
+  border: 10px dashed #0009eb;
+  border-radius: 15px;
+  box-shadow: #5a49bb 10px 10px 50px;
+  transition:transform 1s ease 0.5s;
+  background: -moz-radial-gradient(left, ellipse, #5821bf 5%, #0493ee);
+
+}
+
+#redessociales:hover{
+  transform: skew(32deg);
+}
+
+#Publicidad{
+  background-color: #0fbcf2;
+  float: right;
+  margin-top: -400px;
+  border: 10px dashed #0009eb;
+  border-radius: 50px;
+  box-shadow: #5a49bb 10px 10px 50px;
+  transition: transform 1s ease 0.5s;
+  background: -moz-radial-gradient(right, ellipse, #5821bf 5%, #0493ee);
+}
+
+#Publicidad:hover{
+  transform: skew(-23deg);
+}
+
+#piepagina{
+  background-color: #b805f7;
+  text-align: center;
+  margin-top: 30px;
+  clear: both;
+  border: 15px solid #390b4b;
+  border-radius: 30px;
+  box-shadow: #1c1121 15px 15px 60px;
+  transition: transform 1s ease 0.5s;
+}
+
+#piepagina:hover{
+  transform: rotate3d(5,0,0,60deg);
+}

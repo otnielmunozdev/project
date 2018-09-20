@@ -119,4 +119,6 @@ li.hover{
 
 #piepagina:hover{
   transform: rotate3d(5,0,0,60deg);
+  padding: 5px;
+  color: rgb(39, 167, 107);
 }

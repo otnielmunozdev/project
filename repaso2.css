@@ -48,6 +48,11 @@
   -moz-transform:scale(1.2);
 }
 
+#menuhijo2:hover{
+  -moz-transform:rotate(60deg);
+}
+
+
 li{
 
   background-color: #10e371;

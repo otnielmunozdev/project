@@ -32,9 +32,26 @@
 
 }
 
+#menu2{
+  margin:50px auto;
+  background-color: #6bf10e;
+  width: 15px auto;
+  text-align: center;
+  border: 5px dashed rgb(37, 96, 1);
+  border-radius: 90px;
+  box-shadow: #8df77c 15px 15px ;
+  -moz-transition:-moz-transform 1s ease 0.1s;
+
+}
+
 #menuhijo:hover{
   -moz-transform:scale(1.2);
 }
+
+#menuhijo2:hover{
+  -moz-transform:rotate(60deg);
+}
+
 
 li{
 
